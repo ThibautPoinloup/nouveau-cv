@@ -100,6 +100,9 @@ ul li {
   margin: 20px auto;
   font-size: 20px;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* ------------------------------- END RECURENTES -- */
 nav {
   background-color: gainsboro;
