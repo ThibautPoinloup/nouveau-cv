@@ -100,6 +100,9 @@ ul li {
   margin: 20px auto;
   font-size: 20px;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* ------------------------------- END RECURENTES -- */
 nav {
   background-color: gainsboro;
@@ -344,4 +347,16 @@ div.formation section article,
 }
 div.contact {
   padding-bottom: 30px;
+}
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+}
+footer a {
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
 }

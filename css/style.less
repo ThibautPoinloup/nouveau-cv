@@ -1,7 +1,6 @@
 /* ------------------------------ CSS -- */
 @charset "utf-8";
 
-//width: ~"calc(50% - 20px)";
 
 header, section, footer, aside, nav, main, article, figure {
     display: block; 
@@ -74,6 +73,10 @@ ul{
         margin: 20px auto;
         font-size: 20px;
     }
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 
@@ -326,4 +329,17 @@ div.formation, .experience, .propos, .contact, .tech{
 
 div.contact{
     padding-bottom: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color:#000;
+    a{
+        text-align: center;
+        line-height: 60px;
+        color: #fff;
+        margin: 0 auto;
+        display: block;
+    }
 }
